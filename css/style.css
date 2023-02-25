@@ -153,8 +153,8 @@ header {
 
     /* Step 13 */
     header:not(main header) {
-        position: fixed;
-        width: 100%;
+        position: sticky;
+        top: 0px;
     }
 }
 
